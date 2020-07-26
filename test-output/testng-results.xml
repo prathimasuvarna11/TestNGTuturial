@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="13" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Departmant" duration-ms="44" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day4.WebLoginHomeLoan()[pri:0, instance:Test.Day4@65e2dbf3]" name="WebLoginHomeLoan" class="Test.Day4"/>
+        <method signature="Day3.APILoginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Test.Day3@76707e36]" name="APILoginCarLoan" class="Test.Day3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Car Loan" duration-ms="44" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+      <class name="Test.Day2">
+        <test-method status="PASS" signature="executeBeforeSuite()[pri:0, instance:Test.Day2@67b92f0a]" name="executeBeforeSuite" is-config="true" duration-ms="0" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeSuite -->
+      </class> <!-- Test.Day2 -->
+      <class name="Test.Day3">
+        <test-method status="PASS" signature="executeBeforeClass()[pri:0, instance:Test.Day3@76707e36]" name="executeBeforeClass" is-config="true" duration-ms="0" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeClass -->
+        <test-method status="PASS" signature="executeBeforeMethod()[pri:0, instance:Test.Day3@76707e36]" name="executeBeforeMethod" is-config="true" duration-ms="1" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeMethod -->
+        <test-method status="PASS" signature="APILoginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Test.Day3@76707e36]" name="APILoginCarLoan" duration-ms="6" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method status="PASS" signature="executeAfterMethod()[pri:0, instance:Test.Day3@76707e36]" name="executeAfterMethod" is-config="true" duration-ms="0" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterMethod -->
+        <test-method status="PASS" signature="executeBeforeMethod()[pri:0, instance:Test.Day3@76707e36]" name="executeBeforeMethod" is-config="true" duration-ms="0" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeMethod -->
+        <test-method status="PASS" signature="WebLoginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Test.Day3@76707e36]" name="WebLoginCarLoan" duration-ms="0" started-at="2020-06-13T10:28:44 IST" data-provider="getData" finished-at="2020-06-13T10:28:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method status="PASS" signature="executeBeforeMethod()[pri:0, instance:Test.Day3@76707e36]" name="executeBeforeMethod" is-config="true" duration-ms="1" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeMethod -->
+        <test-method status="PASS" signature="executeAfterMethod()[pri:0, instance:Test.Day3@76707e36]" name="executeAfterMethod" is-config="true" duration-ms="0" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterMethod -->
+        <test-method status="PASS" signature="WebLoginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Test.Day3@76707e36]" name="WebLoginCarLoan" duration-ms="1" started-at="2020-06-13T10:28:44 IST" data-provider="getData" finished-at="2020-06-13T10:28:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method status="PASS" signature="executeBeforeMethod()[pri:0, instance:Test.Day3@76707e36]" name="executeBeforeMethod" is-config="true" duration-ms="0" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeMethod -->
+        <test-method status="PASS" signature="WebLoginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Test.Day3@76707e36]" name="WebLoginCarLoan" duration-ms="1" started-at="2020-06-13T10:28:44 IST" data-provider="getData" finished-at="2020-06-13T10:28:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method status="PASS" signature="executeAfterMethod()[pri:0, instance:Test.Day3@76707e36]" name="executeAfterMethod" is-config="true" duration-ms="0" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterMethod -->
+        <test-method status="PASS" signature="executeAfterMethod()[pri:0, instance:Test.Day3@76707e36]" name="executeAfterMethod" is-config="true" duration-ms="0" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterMethod -->
+        <test-method status="PASS" signature="executeAfterClass()[pri:0, instance:Test.Day3@76707e36]" name="executeAfterClass" is-config="true" duration-ms="0" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterClass -->
+      </class> <!-- Test.Day3 -->
+      <class name="Test.Basic">
+        <test-method status="PASS" signature="executeAfterSuite()[pri:0, instance:Test.Basic@2b9627bc]" name="executeAfterSuite" is-config="true" duration-ms="0" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterSuite -->
+      </class> <!-- Test.Basic -->
+    </test> <!-- Car Loan -->
+    <test name="Personal Loan" duration-ms="39" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+      <class name="Test.Day2">
+        <test-method status="PASS" signature="Demo2()[pri:0, instance:Test.Day2@67b92f0a]" name="Demo2" duration-ms="7" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+      </class> <!-- Test.Day2 -->
+      <class name="Test.Basic">
+        <test-method status="PASS" signature="executeFirst()[pri:0, instance:Test.Basic@2b9627bc]" name="executeFirst" is-config="true" duration-ms="0" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeFirst -->
+        <test-method status="FAIL" signature="Demo()[pri:0, instance:Test.Basic@2b9627bc]" name="Demo" duration-ms="8" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:968)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at org.testng.Assert.assertTrue(Assert.java:53)
+at Test.Basic.Demo(Basic.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- Test.Basic -->
+      <class name="Test.Day4">
+        <test-method status="PASS" signature="MobileLoginHommeLoan(java.lang.String)[pri:0, instance:Test.Day4@65e2dbf3]" name="MobileLoginHommeLoan" duration-ms="8" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHommeLoan -->
+        <test-method status="PASS" signature="WebLoginHomeLoan()[pri:0, instance:Test.Day4@65e2dbf3]" name="WebLoginHomeLoan" duration-ms="1" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+        <test-method status="PASS" signature="APILoginHomeLoan()[pri:0, instance:Test.Day4@65e2dbf3]" name="APILoginHomeLoan" duration-ms="1" started-at="2020-06-13T10:28:44 IST" depends-on-methods="Test.Day4.MobileLoginHommeLoan, Test.Day4.WebLoginHomeLoan" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+        <test-method status="PASS" signature="executeLast()[pri:0, instance:Test.Day4@65e2dbf3]" name="executeLast" is-config="true" duration-ms="1" started-at="2020-06-13T10:28:44 IST" finished-at="2020-06-13T10:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLast -->
+      </class> <!-- Test.Day4 -->
+    </test> <!-- Personal Loan -->
+  </suite> <!-- Loan Departmant -->
+</testng-results>
